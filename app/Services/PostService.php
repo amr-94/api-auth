@@ -94,6 +94,7 @@ class PostService
                 'message' => 'Unauthorized'
             ];
         }
+        
 
         $post->delete();
         return ['success' => true];
